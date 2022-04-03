@@ -2,6 +2,8 @@
 
 :root {
     --text-color: #667085;
+    --title-color:#101828;
+    --accent-color: #8E2424;
 }
 
 *{
@@ -45,4 +47,32 @@ header{
 #cadastra{
     background-color: #8E2424;
     color: #FFF;
+}
+.sobre{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    text-align: center;
+    padding: 6rem 0;
+
+}
+.sobre h1{
+    color: var(--accent-color);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+.sobre h2{
+    color: var(--title-color);
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 1.8rem;
+}
+.sobre p{
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 400;
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
 }
